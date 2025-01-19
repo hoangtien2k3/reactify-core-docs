@@ -64,7 +64,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -229,7 +229,7 @@
                                                             <div class="codeBlockContent_biex">
                                                                 <pre tabindex="0"
                                                                     class="prism-code language-shell codeBlock_bY9V thin-scrollbar"
-                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/activej/activej</span><br></span></code></pre>
+                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/hoangtien2k3/reactify-core</span><br></span></code></pre>
                                                                 <div class="buttonGroup__atx"><button type="button"
                                                                         aria-label="Copy code to clipboard" title="Copy"
                                                                         class="clean-btn"><span
@@ -263,11 +263,11 @@
                                                 <p>To create classes whose instances can be serialized/deserialized,
                                                     special annotations must be used:</p>
                                                 <ul>
-                                                    <li><a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/Serialize.java"
+                                                    <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/Serialize.java"
                                                             target="_blank">@Serialize</a> annotation with order number
                                                         on property getter. Parameter <code>order</code> provides better
                                                         compatibility if classes are changed.</li>
-                                                    <li><a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/Deserialize.java"
+                                                    <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/Deserialize.java"
                                                             target="_blank">@Deserialize</a> annotation with property
                                                         name (which should be the same name as the one in getter) in
                                                         constructor.</li>
@@ -298,7 +298,7 @@
                                                 <p>Now let&#x27;s do some serialization. We&#x27;ll create an instance
                                                     of a <code>Person</code> class, a byte array that will store the
                                                     result of serialization, and an instance of a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinarySerializer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinarySerializer.java"
                                                         target="_blank">BinarySerializer</a> class, which represents the
                                                     serializer that encodes and decodes <code>&lt;T&gt;</code> values
                                                     into byte arrays (in this case <code>&lt;Person&gt;</code> values):
@@ -401,7 +401,7 @@
                                                 <p>Which means that the serialization and deserialization worked
                                                     correctly.</p>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/SimpleObjectExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/SimpleObjectExample.java"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="java-record-serialization">Java record Serialization<a
@@ -411,7 +411,7 @@
                                                 <p>ActiveJ Serializer supports serialization/deserialization of Java
                                                     records out of the box. All you need to do is to mark
                                                     your record with <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeRecord.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeRecord.java"
                                                         target="_blank">@SerializeRecord</a> annotation like this:</p>
                                                 <div class="language-java codeBlockContainer_Ckt0 theme-code-block"
                                                     style="--prism-color:#F8F8F2;--prism-background-color:#282A36">
@@ -439,7 +439,7 @@
                                                         example</a> we&#x27;ll create an instance of a
                                                     <code>Person</code> class, a byte array that will store the result
                                                     of serialization, and an instance of a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinarySerializer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinarySerializer.java"
                                                         target="_blank">BinarySerializer</a> class:
                                                 </p>
                                                 <div class="language-java codeBlockContainer_Ckt0 theme-code-block"
@@ -554,7 +554,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/RecordSerializationExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/RecordSerializationExample.java"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="generics-and-interfaces">Generics and Interfaces<a
@@ -735,7 +735,7 @@
                                                 </div>
                                                 <p>Which means that the serialization worked correctly.</p>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/GenericsAndInterfacesExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/GenericsAndInterfacesExample.java"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="nested-type-serialization">Nested type serialization<a
@@ -769,7 +769,7 @@
                                                 </div>
                                                 <p>But what if you want a map to contain nullable values? You can use
                                                     the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeNullable.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeNullable.java"
                                                         target="_blank">@SerializeNullable</a> annotation.
                                                     However, if you just put this annotation on the field, it would mean
                                                     that a whole map could be nullable.</p>
@@ -946,7 +946,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/SerializeExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/SerializeExample.java"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="fixed-size-and-nullable-fields-serialization">Fixed Size and
@@ -957,10 +957,10 @@
                                                         title="Direct link to Fixed Size and Nullable Fields Serialization">​</a>
                                                 </h2>
                                                 <p>ActiveJ Serializer has some <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations"
                                                         target="_blank">helper annotations</a>, for example:</p>
                                                 <ul>
-                                                    <li><a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeNullable.java"
+                                                    <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeNullable.java"
                                                             target="_blank">@SerializeNullable</a> on properties that
                                                         can have null values. This annotation also has a special
                                                         <code>path</code> parameter. It represent a path of the tree of
@@ -971,7 +971,7 @@
                                                 <p>As you can see, you can write several annotations for the different
                                                     paths of the same data structure.</p>
                                                 <ul>
-                                                    <li><a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeFixedSize.java"
+                                                    <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeFixedSize.java"
                                                             target="_blank">@SerializeFixedSize</a> on properties that
                                                         should have a fixed size after serialization</li>
                                                 </ul>
@@ -1105,7 +1105,7 @@
                                                     from the array while serialization took place.
                                                 </p>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/FixedSizeFieldsExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/FixedSizeFieldsExample.java"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="custom-serializer">
                                                     Custom serializer<a href="#custom-serializer" class="hash-link"
@@ -1170,7 +1170,7 @@
                                                     </div>
                                                 </div>
                                                 <p>We extend <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/def/SimpleSerializerDef.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/def/SimpleSerializerDef.java"
                                                         target="_blank">SimpleSerializerDef</a>
                                                     class and implement methods:</p>
                                                 <ul>
@@ -1180,7 +1180,7 @@
                                                         serialize 3 <code>int</code> values (<code>year</code>,
                                                         <code>month</code>, and <code>dayOfMonth</code>) and write them
                                                         to <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinaryOutput.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinaryOutput.java"
                                                             target="_blank">BinaryOutput</a> as var ints (integers of
                                                         variable length).
                                                     </li>
@@ -1190,7 +1190,7 @@
                                                         The process is an inverse to encoding. First, we have to read 3
                                                         <code>int</code> values (<code>year</code>, <code>month</code>,
                                                         and <code>dayOfMonth</code>) as var ints from <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinaryInput.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/BinaryInput.java"
                                                             target="_blank">BinaryInput</a>.
                                                         Then we can create a new <code>LocalDate</code> instance by
                                                         calling static factory method
@@ -1199,7 +1199,7 @@
                                                     </li>
                                                 </ul>
                                                 <p>At last, we need to add our serializer of <code>LocalDate</code> to
-                                                    <a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/SerializerFactory.java"
+                                                    <a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/SerializerFactory.java"
                                                         target="_blank">SerializerFactory</a> builder.
                                                 </p>
                                                 <div
@@ -1213,7 +1213,7 @@
                                                     <div class="admonitionContent_BuS1">
                                                         <p>Alternatively, you can create a custom serializer by
                                                             extending not a <code>SimpleSerializerDef</code> class but a
-                                                            <a href="https://github.com/activej/activej/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/def/AbstractSerializerDef.java"
+                                                            <a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-serializer/src/main/java/io/activej/serializer/def/AbstractSerializerDef.java"
                                                                 target="_blank">AbstractSerializerDef</a> class.
                                                             You would need to implement <code>encode()/decode()</code>
                                                             methods that return <code>Expression</code>. You would need
@@ -1269,7 +1269,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can explore full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/LocalDateSerializerExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/serializer/src/main/java/LocalDateSerializerExample.java"
                                                         target="_blank">GitHub</a></p>
                                             </div>
                                         </article>
@@ -1318,7 +1318,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>

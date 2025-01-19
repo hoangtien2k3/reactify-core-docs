@@ -234,15 +234,15 @@ minor improvements mainly for <a href="https://activej.io/http">HTTP client/serv
 <li>Added dedicated enum for setting <code>SameSite</code> policy on cookies.</li>
 <li>Malformed HTTP requests now result in a code <code>400</code> response rather than connection drop.</li>
 <li>HTTP inspectors can now inspect malformed HTTP requests and responses.</li>
-<li><a href="https://github.com/activej/activej/blob/v5.1.1/core-http/src/main/java/io/activej/http/RoutingServlet.java" target="_blank" rel="noopener noreferrer">RoutingServlet</a> now correctly decodes percent-encoded URL path parts.</li>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1.1/core-http/src/main/java/io/activej/http/RoutingServlet.java" target="_blank" rel="noopener noreferrer">RoutingServlet</a> now correctly decodes percent-encoded URL path parts.</li>
 <li>Added checks for DNS label sizes.</li>
-<li>Minor improvements of the <a href="https://github.com/activej/activej/blob/v5.1.1/core-http/src/main/java/io/activej/http/UrlParser.java" target="_blank" rel="noopener noreferrer">UrlParser</a>.</li>
+<li>Minor improvements of the <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1.1/core-http/src/main/java/io/activej/http/UrlParser.java" target="_blank" rel="noopener noreferrer">UrlParser</a>.</li>
 </ul>
 </li>
 <li><a href="https://activej.io/serializer">ActiveJ Serializer</a>
 <ul>
 <li>Added additional preconditions for subclass serializer.</li>
-<li>Removed unnecessary caching from <a href="https://github.com/activej/activej/blob/v5.1.1/core-serializer/src/main/java/io/activej/serializer/SerializerBuilder.java" target="_blank" rel="noopener noreferrer">SerializerBuilder</a>.</li>
+<li>Removed unnecessary caching from <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1.1/core-serializer/src/main/java/io/activej/serializer/SerializerBuilder.java" target="_blank" rel="noopener noreferrer">SerializerBuilder</a>.</li>
 </ul>
 </li>
 <li><a href="https://activej.io/fs">ActiveJ FS</a>
@@ -264,19 +264,19 @@ improvements to <a href="https://activej.io/fs">ActiveJ FS</a>, <a href="https:/
 <ul>
 <li><a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/launcher">boot</a> modules<!-- -->
 <ul>
-<li><a href="https://github.com/activej/activej/blob/v5.1/boot-triggers/src/main/java/io/activej/trigger/TriggersModule.java" target="_blank" rel="noopener noreferrer">TriggersModule</a>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/boot-triggers/src/main/java/io/activej/trigger/TriggersModule.java" target="_blank" rel="noopener noreferrer">TriggersModule</a>
 now properly handles <a href="https://activej.io/inject/optional-dependencies">optional dependencies</a></li>
 <li>Nested optional dependencies (e.g. <code>OptionalDependency&lt;OptionalDependency&lt;?&gt;&gt;</code>) are prohibited</li>
 <li>Services (as well as those obtained from an optional dependencies) are guaranteed to start/stop exactly once</li>
-<li>Added shortcuts for obtaining optional dependencies from <a href="https://github.com/activej/activej/blob/v5.1/core-inject/src/main/java/io/activej/inject/Injector.java" target="_blank" rel="noopener noreferrer">Injector</a></li>
+<li>Added shortcuts for obtaining optional dependencies from <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/core-inject/src/main/java/io/activej/inject/Injector.java" target="_blank" rel="noopener noreferrer">Injector</a></li>
 </ul>
 </li>
 <li><a href="https://activej.io/fs">ActiveJ FS</a>
 <ul>
-<li>Added a new <a href="https://github.com/activej/activej/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/exception/ActiveFsStructureException.java" target="_blank" rel="noopener noreferrer">exception</a> to
+<li>Added a new <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/exception/ActiveFsStructureException.java" target="_blank" rel="noopener noreferrer">exception</a> to
 indicate errors in a structure of a file system.</li>
-<li>Added a precondition that checks whether local file systems (<a href="https://github.com/activej/activej/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/LocalActiveFs.java" target="_blank" rel="noopener noreferrer">LocalActiveFs</a> and
-<a href="https://github.com/activej/activej/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/LocalBlockingFs.java" target="_blank" rel="noopener noreferrer">LocalBlockingFs</a>) were started before being used.</li>
+<li>Added a precondition that checks whether local file systems (<a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/LocalActiveFs.java" target="_blank" rel="noopener noreferrer">LocalActiveFs</a> and
+<a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/LocalBlockingFs.java" target="_blank" rel="noopener noreferrer">LocalBlockingFs</a>) were started before being used.</li>
 </ul>
 </li>
 </ul>]]></content>
@@ -299,23 +299,23 @@ overall minor improvements in other components.</p>
 <a href="https://activej.io/specializer">specialization</a></li>
 <li>Simplified type resolution in dependency injection</li>
 <li>Added the ability to transform imported and exported bindings using patterns (see <a href="https://activej.io/inject/binding-transformation">example</a>)</li>
-<li>Replaced <code>@Optional</code> annotation with an explicit <a href="https://github.com/activej/activej/blob/v5.0/core-inject/src/main/java/io/activej/inject/binding/OptionalDependency.java" target="_blank" rel="noopener noreferrer">OptionalDependency</a>
+<li>Replaced <code>@Optional</code> annotation with an explicit <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-inject/src/main/java/io/activej/inject/binding/OptionalDependency.java" target="_blank" rel="noopener noreferrer">OptionalDependency</a>
 class</li>
 </ul>
 </li>
 <li><a href="https://activej.io/codegen">ActiveJ Codegen</a>
 <ul>
-<li>Improved <a href="https://github.com/activej/activej/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a> and <a href="https://github.com/activej/activej/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/DefiningClassLoader.java" target="_blank" rel="noopener noreferrer">DefiningClassLoader</a> classes</li>
+<li>Improved <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a> and <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/DefiningClassLoader.java" target="_blank" rel="noopener noreferrer">DefiningClassLoader</a> classes</li>
 <li>Class generation may now be 100% lazy</li>
-<li>Added in-memory <a href="https://github.com/activej/activej/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a> caches</li>
-<li>Added the ability to use <a href="https://github.com/activej/activej/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/BytecodeStorage.java" target="_blank" rel="noopener noreferrer">BytecodeStorage</a> as a persistent cache for generated bytecode</li>
+<li>Added in-memory <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a> caches</li>
+<li>Added the ability to use <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/BytecodeStorage.java" target="_blank" rel="noopener noreferrer">BytecodeStorage</a> as a persistent cache for generated bytecode</li>
 <li>Added the ability to call super methods as well as protected methods</li>
 <li>Improved built-in expressions for array/collection/map iteration</li>
 </ul>
 </li>
 <li><a href="https://activej.io/serializer">ActiveJ Serializer</a>
 <ul>
-<li>Added the ability to specify serializer annotations directly on type use (see <a href="https://github.com/activej/activej/blob/v5.0/examples/core/serializer/src/main/java/SerializeNoPathExample.java" target="_blank" rel="noopener noreferrer">example</a>)</li>
+<li>Added the ability to specify serializer annotations directly on type use (see <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/examples/core/serializer/src/main/java/SerializeNoPathExample.java" target="_blank" rel="noopener noreferrer">example</a>)</li>
 <li>Automatic class member ordering is now supported within the same JVM</li>
 <li>Added support for serializer annotation aliases</li>
 <li>Improved array serialization as well as serialization of booleans</li>
@@ -336,11 +336,11 @@ the whole promise is completed exceptionally</li>
 <ul>
 <li>Removed <code>codec</code> module. Components that require JSON marshalling now internally use the
 <a href="https://github.com/ngs-doo/dsl-json" target="_blank" rel="noopener noreferrer">DSL-JSON</a> library</li>
-<li>Added new <a href="https://github.com/activej/activej/tree/v5.0/util-types" target="_blank" rel="noopener noreferrer">types</a> module which contains various reflection and type utilities, including advanced type scanner</li>
-<li><a href="https://github.com/activej/activej/tree/v5.0/util-common" target="_blank" rel="noopener noreferrer">Common</a> module has been massively refactored to make common functions and components more consistent</li>
+<li>Added new <a href="https://github.com/hoangtien2k3/reactify-core/tree/v5.0/util-types" target="_blank" rel="noopener noreferrer">types</a> module which contains various reflection and type utilities, including advanced type scanner</li>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/tree/v5.0/util-common" target="_blank" rel="noopener noreferrer">Common</a> module has been massively refactored to make common functions and components more consistent</li>
 <li>Restructured asynchronous exceptions</li>
 <li>Unchecked exception handling can now be precisely configured using a thread-scoped or global
-<a href="https://github.com/activej/activej/blob/v5.0/util-common/src/main/java/io/activej/common/exception/FatalErrorHandler.java" target="_blank" rel="noopener noreferrer">FatalErrorHandler facility</a></li>
+<a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/util-common/src/main/java/io/activej/common/exception/FatalErrorHandler.java" target="_blank" rel="noopener noreferrer">FatalErrorHandler facility</a></li>
 <li>Made ActiveJ compatible with Java 17</li>
 <li>Added various <code>DiscoveryService</code> interfaces for node discovery within server cluster (<a href="https://activej.io/rpc">RPC</a>, <a href="https://activej.io/fs">FS</a>)</li>
 <li>Removed <code>AsyncServletDecorator</code> facility</li>
@@ -360,18 +360,18 @@ the whole promise is completed exceptionally</li>
 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/4.3" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release introduced
 small improvements for multiple modules.</p>
 <ul>
-<li>Added new method <code>onConnecting</code> to <a href="https://github.com/activej/activej/blob/v4.3/core-http/src/main/java/io/activej/http/AsyncHttpClient.java" target="_blank" rel="noopener noreferrer">AsyncHttpClient</a>
+<li>Added new method <code>onConnecting</code> to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/core-http/src/main/java/io/activej/http/AsyncHttpClient.java" target="_blank" rel="noopener noreferrer">AsyncHttpClient</a>
 's <code>Inspector</code>. Now, the number of connection that are being
 established can be monitored via <code>JmxInspector#getConnecting</code> attribute</li>
 <li>When HTTP connection closes, the proper exception is propagated to HTTP request and response body suppliers</li>
-<li><a href="https://github.com/activej/activej/blob/v4.3/core-eventloop/src/main/java/io/activej/eventloop/inspector/ThrottlingController.java" target="_blank" rel="noopener noreferrer">ThrottlingController</a>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/core-eventloop/src/main/java/io/activej/eventloop/inspector/ThrottlingController.java" target="_blank" rel="noopener noreferrer">ThrottlingController</a>
 now throttles all the processing if tasks consecutively execute for abnormally long time</li>
-<li><a href="https://github.com/activej/activej/blob/v4.3/core-datastream/src/main/java/io/activej/datastream/ForwardingStreamSupplier.java" target="_blank" rel="noopener noreferrer">ForwardingStreamSupplier</a>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/core-datastream/src/main/java/io/activej/datastream/ForwardingStreamSupplier.java" target="_blank" rel="noopener noreferrer">ForwardingStreamSupplier</a>
 now correctly binds peer <code>StreamSupplier</code> to <code>StreamConsumer</code></li>
-<li>Fixed asynchronous recursion in <a href="https://github.com/activej/activej/blob/v4.3/core-datastream/src/main/java/io/activej/datastream/csp/ChannelSerializer.java" target="_blank" rel="noopener noreferrer">ChannelSerializer</a></li>
-<li>Missing measures in <a href="https://github.com/activej/activej/blob/v4.3/extra/cloud-lsmt-aggregation/src/main/java/io/activej/aggregation/Aggregation.java" target="_blank" rel="noopener noreferrer">Aggregation</a>
+<li>Fixed asynchronous recursion in <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/core-datastream/src/main/java/io/activej/datastream/csp/ChannelSerializer.java" target="_blank" rel="noopener noreferrer">ChannelSerializer</a></li>
+<li>Missing measures in <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/extra/cloud-lsmt-aggregation/src/main/java/io/activej/aggregation/Aggregation.java" target="_blank" rel="noopener noreferrer">Aggregation</a>
 are initialized with default 'zero' values</li>
-<li><a href="https://github.com/activej/activej/blob/v4.3/extra/cloud-lsmt-aggregation/src/main/java/io/activej/aggregation/measure/HyperLogLog.java" target="_blank" rel="noopener noreferrer">HyperLogLog</a>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.3/extra/cloud-lsmt-aggregation/src/main/java/io/activej/aggregation/measure/HyperLogLog.java" target="_blank" rel="noopener noreferrer">HyperLogLog</a>
 now correctly adds <code>int</code> values</li>
 </ul>]]></content>
     </entry>
@@ -384,37 +384,37 @@ now correctly adds <code>int</code> values</li>
         <content type="html"><![CDATA[<p>ActiveJ v4.2 was released Apr 13, 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/4.2" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release expanded
 functionality of some components.</p>
 <ul>
-<li><strong><a href="https://github.com/activej/activej/tree/v4.2/extra/cloud-redis" target="_blank" rel="noopener noreferrer">ActiveJ Redis client</a></strong>
+<li><strong><a href="https://github.com/hoangtien2k3/reactify-core/tree/v4.2/extra/cloud-redis" target="_blank" rel="noopener noreferrer">ActiveJ Redis client</a></strong>
 <ul>
 <li>Added <code>connect()</code> methods
-to <a href="https://github.com/activej/activej/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisClient.java" target="_blank" rel="noopener noreferrer">RedisClient</a>
+to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisClient.java" target="_blank" rel="noopener noreferrer">RedisClient</a>
 that take up authentication credentials</li>
 <li>Added new specialized exceptions for ActiveJ Redis module:<!-- -->
 <ul>
-<li><a href="https://github.com/activej/activej/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisAuthenticationException.java" target="_blank" rel="noopener noreferrer">RedisAuthenticationException</a></li>
-<li><a href="https://github.com/activej/activej/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisPermissionException.java" target="_blank" rel="noopener noreferrer">RedisPermissionException</a></li>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisAuthenticationException.java" target="_blank" rel="noopener noreferrer">RedisAuthenticationException</a></li>
+<li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/extra/cloud-redis/src/main/java/io/activej/redis/RedisPermissionException.java" target="_blank" rel="noopener noreferrer">RedisPermissionException</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/activej/activej/blob/v4.2/core-codegen/src/main/java/io/activej/record/RecordScheme.java" target="_blank" rel="noopener noreferrer">RecordScheme</a></strong>
+<li><strong><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/core-codegen/src/main/java/io/activej/record/RecordScheme.java" target="_blank" rel="noopener noreferrer">RecordScheme</a></strong>
 <ul>
 <li>Added ability to specify fields in <code>RecordScheme</code> that would be used for <code>equals()</code> and <code>hashCode()</code> implementation</li>
 <li>Added ability to specify fields that would be used to generate a record <code>Comparator</code></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/activej/activej/blob/v4.2/util-common/src/main/java/io/activej/common/FileLocker.java" target="_blank" rel="noopener noreferrer">FileLocker</a></strong>
+<li><strong><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/util-common/src/main/java/io/activej/common/FileLocker.java" target="_blank" rel="noopener noreferrer">FileLocker</a></strong>
 <ul>
 <li>Made <code>FileLocker</code> constructors public</li>
 <li><code>FileLocker</code> now implements <code>java.io.Closeable</code> interface</li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/activej/activej/blob/v4.2/util-state/src/main/java/io/activej/state/StateManager.java" target="_blank" rel="noopener noreferrer">StateManager</a></strong>
+<li><strong><a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/util-state/src/main/java/io/activej/state/StateManager.java" target="_blank" rel="noopener noreferrer">StateManager</a></strong>
 <ul>
 <li>Added <code>tryLoadSnapshot()</code> and <code>tryLoadDiff()</code> methods that return <code>null</code> rather than throwing an exception</li>
-<li>Added <code>tryLoad()</code> method to <a href="https://github.com/activej/activej/blob/v4.2/util-state/src/main/java/io/activej/state/file/FileStateManager.java" target="_blank" rel="noopener noreferrer">FileStateManager</a>
+<li>Added <code>tryLoad()</code> method to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/util-state/src/main/java/io/activej/state/file/FileStateManager.java" target="_blank" rel="noopener noreferrer">FileStateManager</a>
 that returns <code>null</code> rather than throwing an exception</li>
-<li>Added <code>save()</code> method to <a href="https://github.com/activej/activej/blob/v4.2/util-state/src/main/java/io/activej/state/file/FileStateManager.java" target="_blank" rel="noopener noreferrer">FileStateManager</a>
+<li>Added <code>save()</code> method to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.2/util-state/src/main/java/io/activej/state/file/FileStateManager.java" target="_blank" rel="noopener noreferrer">FileStateManager</a>
 that takes up a revision for the state to be saved with</li>
 </ul>
 </li>
@@ -434,26 +434,26 @@ This release included optimization and simplification of HTTP code, expanding fu
 <ul>
 <li>Optimized and simplified processing of incoming HTTP messages, headers and URLs</li>
 <li>Added preconditions for an HTTP message which guard against using recycled messages</li>
-<li>User-created HTTP messages (<a href="https://github.com/activej/activej/blob/v4.1/core-http/src/main/java/io/activej/http/HttpRequest.java" target="_blank" rel="noopener noreferrer">HttpRequest</a>
-for <a href="https://github.com/activej/activej/blob/v4.1/core-http/src/main/java/io/activej/http/AsyncHttpClient.java" target="_blank" rel="noopener noreferrer">AsyncHttpClient</a> /
-<a href="https://github.com/activej/activej/blob/v4.1/core-http/src/main/java/io/activej/http/HttpResponse.java" target="_blank" rel="noopener noreferrer">HttpResponse</a> in
-<a href="https://github.com/activej/activej/blob/v4.1/core-http/src/main/java/io/activej/http/AsyncServlet.java" target="_blank" rel="noopener noreferrer">AsyncServlet</a>) are not recycled anymore
+<li>User-created HTTP messages (<a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/core-http/src/main/java/io/activej/http/HttpRequest.java" target="_blank" rel="noopener noreferrer">HttpRequest</a>
+for <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/core-http/src/main/java/io/activej/http/AsyncHttpClient.java" target="_blank" rel="noopener noreferrer">AsyncHttpClient</a> /
+<a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/core-http/src/main/java/io/activej/http/HttpResponse.java" target="_blank" rel="noopener noreferrer">HttpResponse</a> in
+<a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/core-http/src/main/java/io/activej/http/AsyncServlet.java" target="_blank" rel="noopener noreferrer">AsyncServlet</a>) are not recycled anymore
 (only message body is recycled if present), thus making it possible to cache and reuse them</li>
 </ul>
 </li>
-<li>Added <code>Promise&lt;Void&gt; fetch()</code> method to <a href="https://github.com/activej/activej/blob/v4.1/extra/cloud-ot/src/main/java/io/activej/ot/OTStateManager.java" target="_blank" rel="noopener noreferrer">OTStateManager</a>.
+<li>Added <code>Promise&lt;Void&gt; fetch()</code> method to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/extra/cloud-ot/src/main/java/io/activej/ot/OTStateManager.java" target="_blank" rel="noopener noreferrer">OTStateManager</a>.
 Fetched changes are stored without being applied to the current state.</li>
 <li>Improved casting of deserialized fields in <a href="https://serializer.activej.io/" target="_blank" rel="noopener noreferrer">ActiveJ Serializer</a></li>
-<li>Added default <a href="https://github.com/activej/activej/blob/v4.1/util-common/src/main/java/io/activej/common/api/Initializer.java" target="_blank" rel="noopener noreferrer">Initializer</a>s
+<li>Added default <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/util-common/src/main/java/io/activej/common/api/Initializer.java" target="_blank" rel="noopener noreferrer">Initializer</a>s
 for common components</li>
-<li>Added preconditions when applying operations to <a href="https://github.com/activej/activej/blob/v4.1/extra/cloud-etl/src/main/java/io/activej/etl/LogOTState.java" target="_blank" rel="noopener noreferrer">LogOTState</a></li>
-<li>Removed <a href="https://github.com/activej/activej/blob/v4.1/boot-jmx/src/main/java/io/activej/jmx/JmxModule.java" target="_blank" rel="noopener noreferrer">JmxModule</a> from common HTTP launchers</li>
-<li>Added new JMX stats to <a href="https://github.com/activej/activej/blob/v4.1/cloud-rpc/src/main/java/io/activej/rpc/client/RpcClient.java" target="_blank" rel="noopener noreferrer">RpcClient</a>
+<li>Added preconditions when applying operations to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/extra/cloud-etl/src/main/java/io/activej/etl/LogOTState.java" target="_blank" rel="noopener noreferrer">LogOTState</a></li>
+<li>Removed <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/boot-jmx/src/main/java/io/activej/jmx/JmxModule.java" target="_blank" rel="noopener noreferrer">JmxModule</a> from common HTTP launchers</li>
+<li>Added new JMX stats to <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/cloud-rpc/src/main/java/io/activej/rpc/client/RpcClient.java" target="_blank" rel="noopener noreferrer">RpcClient</a>
 for monitoring unresponsive RPC servers</li>
-<li>Added <a href="https://github.com/activej/activej/blob/v4.1/util-common/src/main/java/io/activej/common/ApplicationSettings.java" target="_blank" rel="noopener noreferrer">ApplicationSettings</a>
+<li>Added <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/util-common/src/main/java/io/activej/common/ApplicationSettings.java" target="_blank" rel="noopener noreferrer">ApplicationSettings</a>
 method for obtaining a default <code>Locale</code></li>
-<li>Stick to using <code>en-US</code> locale when formatting <a href="https://github.com/activej/activej/blob/v4.1/boot-jmx-stats/src/main/java/io/activej/jmx/stats/EventStats.java" target="_blank" rel="noopener noreferrer">EventStats</a>
-and <a href="https://github.com/activej/activej/blob/v4.1/boot-jmx-stats/src/main/java/io/activej/jmx/stats/ValueStats.java" target="_blank" rel="noopener noreferrer">ValueStats</a></li>
+<li>Stick to using <code>en-US</code> locale when formatting <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/boot-jmx-stats/src/main/java/io/activej/jmx/stats/EventStats.java" target="_blank" rel="noopener noreferrer">EventStats</a>
+and <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/boot-jmx-stats/src/main/java/io/activej/jmx/stats/ValueStats.java" target="_blank" rel="noopener noreferrer">ValueStats</a></li>
 </ul>]]></content>
     </entry>
     <entry>
@@ -471,36 +471,36 @@ ActiveJ Redis client. Other components were optimized for the performance.</p>
 <li>All public constant exceptions were removed/hidden.</li>
 <li><strong>StacklessException</strong> was removed. Classes that extended <strong>StacklessException</strong> now extend regular <strong>Exception</strong>,
 some of them are still <em>stackless</em>. <em>Stackless</em> exceptions provide the ability to include stack trace for debugging purposes.
-This can be achieved by setting exception's <a href="https://github.com/activej/activej/blob/v4.0/util-common/src/main/java/io/activej/common/ApplicationSettings.java" target="_blank" rel="noopener noreferrer">ApplicationSetting</a>
+This can be achieved by setting exception's <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/util-common/src/main/java/io/activej/common/ApplicationSettings.java" target="_blank" rel="noopener noreferrer">ApplicationSetting</a>
 <code>withStackTrace</code> to <strong>true</strong>.</li>
 <li>Renamed exceptions:<!-- -->
 <ul>
-<li><strong>ParseException</strong> -&gt; <a href="https://github.com/activej/activej/blob/v4.0/util-common/src/main/java/io/activej/common/exception/MalformedDataException.java" target="_blank" rel="noopener noreferrer">MalformedDataException</a></li>
-<li><strong>HttpException</strong> -&gt; <a href="https://github.com/activej/activej/blob/v4.0/core-http/src/main/java/io/activej/http/HttpError.java" target="_blank" rel="noopener noreferrer">HttpError</a>
-(<a href="https://github.com/activej/activej/blob/v4.0/core-http/src/main/java/io/activej/http/HttpException.java" target="_blank" rel="noopener noreferrer">HttpException</a>
+<li><strong>ParseException</strong> -&gt; <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/util-common/src/main/java/io/activej/common/exception/MalformedDataException.java" target="_blank" rel="noopener noreferrer">MalformedDataException</a></li>
+<li><strong>HttpException</strong> -&gt; <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/core-http/src/main/java/io/activej/http/HttpError.java" target="_blank" rel="noopener noreferrer">HttpError</a>
+(<a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/core-http/src/main/java/io/activej/http/HttpException.java" target="_blank" rel="noopener noreferrer">HttpException</a>
 is now a parent class for other HTTP exceptions)</li>
-<li><strong>OTTransformException</strong> -&gt; <a href="https://github.com/activej/activej/blob/v4.0/extra/cloud-ot/src/main/java/io/activej/ot/exception/TransformException.java" target="_blank" rel="noopener noreferrer">TransformException</a></li>
-<li><strong>OTNoCommitException</strong> -&gt; <a href="https://github.com/activej/activej/blob/v4.0/extra/cloud-ot/src/main/java/io/activej/ot/exception/NoCommitException.java" target="_blank" rel="noopener noreferrer">NoCommitException</a></li>
+<li><strong>OTTransformException</strong> -&gt; <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/extra/cloud-ot/src/main/java/io/activej/ot/exception/TransformException.java" target="_blank" rel="noopener noreferrer">TransformException</a></li>
+<li><strong>OTNoCommitException</strong> -&gt; <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/extra/cloud-ot/src/main/java/io/activej/ot/exception/NoCommitException.java" target="_blank" rel="noopener noreferrer">NoCommitException</a></li>
 </ul>
 </li>
 <li>Added new exceptions for top-level components, etc.</li>
 </ul>
 </li>
-<li>Introduced asynchronous lightweight high-performance <a href="https://github.com/activej/activej/tree/v4.0/extra/cloud-redis" target="_blank" rel="noopener noreferrer">ActiveJ Redis Client</a>
-with extendable API. <a href="https://github.com/activej/activej/tree/v4.0/examples/cloud/redis" target="_blank" rel="noopener noreferrer">Examples</a> and <a href="https://github.com/activej/activej/tree/v4.0/benchmarks/redis" target="_blank" rel="noopener noreferrer">benchmarks</a>
+<li>Introduced asynchronous lightweight high-performance <a href="https://github.com/hoangtien2k3/reactify-core/tree/v4.0/extra/cloud-redis" target="_blank" rel="noopener noreferrer">ActiveJ Redis Client</a>
+with extendable API. <a href="https://github.com/hoangtien2k3/reactify-core/tree/v4.0/examples/cloud/redis" target="_blank" rel="noopener noreferrer">Examples</a> and <a href="https://github.com/hoangtien2k3/reactify-core/tree/v4.0/benchmarks/redis" target="_blank" rel="noopener noreferrer">benchmarks</a>
 for Redis client were added as well.</li>
 <li>Optimizations in network code, HTTP processing (especially in pipelining mode), and data serialization.</li>
-<li>Renamed <strong>ByteBufQueue</strong> -&gt; <a href="https://github.com/activej/activej/blob/v4.0/core-bytebuf/src/main/java/io/activej/bytebuf/ByteBufs.java" target="_blank" rel="noopener noreferrer">ByteBufs</a>.
+<li>Renamed <strong>ByteBufQueue</strong> -&gt; <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/core-bytebuf/src/main/java/io/activej/bytebuf/ByteBufs.java" target="_blank" rel="noopener noreferrer">ByteBufs</a>.
 Added byte index to <strong>ByteScanner</strong>, refactored <code>ByteBufs::scanBytes</code>.
 Added <code>ByteBufs::consumeBytes</code> method that works like <code>ByteBufs::scanBytes</code>, but actually consumes scanned bytes/bufs.</li>
 <li>Removed <strong>StreamMapper</strong>, now stream mapping can be achieved via <code>StreamFilter.mapper(Function&lt;I, O&gt;)</code></li>
 <li>Removed <strong>Transducer</strong>, <strong>StreamTransducer</strong>, <strong>AbstractStreamReducer</strong>, <strong>StreamMerger</strong> classes. Merging of streams can be
-done via <a href="https://github.com/activej/activej/blob/v4.0/core-datastream/src/main/java/io/activej/datastream/processor/StreamReducer.java" target="_blank" rel="noopener noreferrer">StreamReducer</a></li>
+done via <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/core-datastream/src/main/java/io/activej/datastream/processor/StreamReducer.java" target="_blank" rel="noopener noreferrer">StreamReducer</a></li>
 <li>Renamed <strong>MergeSortReducer</strong> -&gt; <strong>MergeReducer</strong>, <strong>MergeDistinctReducer</strong> -&gt; <strong>DeduplicateReducer</strong></li>
-<li>Added ability to obtain irrelevant chunks from <a href="https://github.com/activej/activej/blob/v4.0/extra/cloud-lsmt-cube/src/main/java/io/activej/cube/Cube.java" target="_blank" rel="noopener noreferrer">Cube</a>
+<li>Added ability to obtain irrelevant chunks from <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/extra/cloud-lsmt-cube/src/main/java/io/activej/cube/Cube.java" target="_blank" rel="noopener noreferrer">Cube</a>
 by calling <code>Cube::getIrrelevantChunks</code>. Irrelevant chunks can be cleaned up by calling <code>CubeConsolidationController::cleanupIrrelevantChunks</code>.</li>
-<li>Added JUnit test rule <a href="https://github.com/activej/activej/blob/v4.0/test/src/main/java/io/activej/test/rules/ClassBuilderConstantsRule.java" target="_blank" rel="noopener noreferrer">ClassBuilderConstantsRule</a>
-which validates that all of the <a href="https://github.com/activej/activej/blob/v4.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a>'s
+<li>Added JUnit test rule <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/test/src/main/java/io/activej/test/rules/ClassBuilderConstantsRule.java" target="_blank" rel="noopener noreferrer">ClassBuilderConstantsRule</a>
+which validates that all of the <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a>'s
 static constants are cleared after test passes.</li>
 <li>Renamed most classes/methods that contained <em>parse</em> to contain <em>decode</em> instead.</li>
 </ul>]]></content>

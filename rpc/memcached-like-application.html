@@ -65,7 +65,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -231,7 +231,7 @@
                                                     application based on the RPC communication protocol
                                                     and ActiveJ technologies.</p>
                                                 <p>You can find full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached"
                                                         target="_blank">GitHub</a>.</p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="memcached-client-and-server-modules">Memcached Client and Server
@@ -246,16 +246,16 @@
                                                     them:</p>
                                                 <ul>
                                                     <li><strong><a
-                                                                href="https://github.com/activej/activej/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/server/MemcacheServerModule.java"
+                                                                href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/server/MemcacheServerModule.java"
                                                                 target="_blank">MemcacheServerModule</a></strong>
                                                         exports an <strong>RpcServer</strong> to handle <code>get</code>
                                                         and <code>put</code> requests. To launch multiple servers on a
                                                         single JVM, we provide the <a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheMultiServerModule.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheMultiServerModule.java"
                                                             target="_blank">MemcacheMultiServerModule</a> with
                                                         integrated <a href="/boot/workers">WorkerPools</a>.</li>
                                                     <li><strong><a
-                                                                href="https://github.com/activej/activej/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/MemcacheClientModule.java"
+                                                                href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/MemcacheClientModule.java"
                                                                 target="_blank">MemcacheClientModule</a></strong> sets a
                                                         <a href="/rpc/basic-examples#rendezvous-hashing-strategy">Rendezvous
                                                             Hashing Strategy</a> for request arrangement among shards of
@@ -281,7 +281,7 @@
                                                         aria-label="Direct link to Create Client and Server"
                                                         title="Direct link to Create Client and Server">​</a></h2>
                                                 <p>Let&#x27;s write our own <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheLikeServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheLikeServer.java"
                                                         target="_blank">MemcacheLikeServer</a>
                                                     server. We will also use the the lightning-fast Dependency Injection
                                                     library <a href="/inject">ActiveJ Inject</a> and the <a
@@ -316,19 +316,19 @@
                                                     example.</p>
                                                 <ul>
                                                     <li>The number of server shards equals the number of <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/boot-workers/src/main/java/io/activej/worker/WorkerPools.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/boot-workers/src/main/java/io/activej/worker/WorkerPools.java"
                                                             target="_blank">workerPools</a></li>
                                                     <li>As for the &quot;memcached&quot; functionality - we specify the
                                                         number of buffers and their capacity in the <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/boot-config/src/main/java/io/activej/config/Config.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/boot-config/src/main/java/io/activej/config/Config.java"
                                                             target="_blank">Config</a></li>
                                                     <li><strong>Config</strong> is used to set up everything <a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheMultiServerModule.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheMultiServerModule.java"
                                                             target="_blank">MemcacheMultiServerModule</a> needs to
                                                         handle upcoming requests.</li>
                                                 </ul>
                                                 <p>Our <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheLikeClient.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/MemcacheLikeClient.java"
                                                         target="_blank">MemcacheLikeClient</a> will create
                                                     <code>put</code> and <code>get</code> requests:
                                                 </p>
@@ -370,12 +370,12 @@
                                                         for the three shards, so we end up with a disordered output
                                                         block.</li>
                                                     <li><strong><a
-                                                                href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/RawMemcacheClientAdapter.java"
+                                                                href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/memcached/RawMemcacheClientAdapter.java"
                                                                 target="_blank">RawMemcacheClientAdapter</a></strong>
                                                         is a manually created class. It uses <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/RawMemcacheClient.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/RawMemcacheClient.java"
                                                             target="_blank">RawMemcacheClient</a> (an implementation of
-                                                        <a href="https://github.com/activej/activej/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/MemcacheClient.java"
+                                                        <a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/extra/cloud-memcache/src/main/java/io/activej/memcache/client/MemcacheClient.java"
                                                             target="_blank">MemcacheClient</a>) and defines the logic of
                                                         the <code>put</code> and <code>get</code> methods for our
                                                         <strong>MemcacheLikeClient</strong>.
@@ -478,7 +478,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>

@@ -64,7 +64,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -248,7 +248,7 @@
                                                         aria-label="Direct link to Launcher in a nutshell"
                                                         title="Direct link to Launcher in a nutshell">​</a></h2>
                                                 <p><a href="#"><a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/launcher/src/main/java/io/activej/launcher/Launcher.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launcher/src/main/java/io/activej/launcher/Launcher.java"
                                                             target="_blank"><code>Launcher</code></a></a> is a very
                                                     explicit tool. You can understand how it just by looking at the
                                                     implementation of its main <code>launch()</code> method in a
@@ -278,16 +278,16 @@
                                                 <p>Step-by-step examination:</p>
                                                 <ul>
                                                     <li>Create an <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/Injector.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/Injector.java"
                                                             target="_blank"><code>Injector</code></a> using the <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/module/Module.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/module/Module.java"
                                                             target="_blank"><code>Modules</code></a> provided in
                                                         <code>Launcher</code>
                                                     </li>
                                                     <li>Inject top-level dependencies into the <code>Launcher</code>
                                                         instance itself</li>
                                                     <li>Instantiate all keys marked as <a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Eager.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Eager.java"
                                                             target="_blank"><code>@Eager</code></a>, exported by
                                                         <code>Launcher’s Modules</code>
                                                     </li>
@@ -304,10 +304,10 @@
                                                 </ul>
                                                 <p>Here is an example of the <code>Launcher</code> lifecycle represented
                                                     as logs (particularly, <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/launchers/http/src/main/java/io/activej/launchers/http/HttpServerLauncher.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launchers/http/src/main/java/io/activej/launchers/http/HttpServerLauncher.java"
                                                         target="_blank"><code>HttpServerLauncher</code></a> subclass
                                                     that provides an <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-http/src/main/java/io/activej/http/HttpServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-http/src/main/java/io/activej/http/HttpServer.java"
                                                         target="_blank"><code>HttpServer</code></a>, an <a
                                                         href="/async-io/eventloop"><code>Eventloop</code></a> and <a
                                                         href="/boot/config"><code>Config</code></a>). Launch <a
@@ -436,7 +436,7 @@
                                                             <div class="codeBlockContent_biex">
                                                                 <pre tabindex="0"
                                                                     class="prism-code language-shell codeBlock_bY9V thin-scrollbar"
-                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/activej/activej</span><br></span></code></pre>
+                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/hoangtien2k3/reactify-core</span><br></span></code></pre>
                                                                 <div class="buttonGroup__atx"><button type="button"
                                                                         aria-label="Copy code to clipboard" title="Copy"
                                                                         class="clean-btn"><span
@@ -491,7 +491,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/boot/src/main/java/HelloWorldExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/boot/src/main/java/HelloWorldExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h3 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="http-server-from-scratch-using-launcher">HTTP Server from
@@ -531,7 +531,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/http/src/main/java/CustomHttpServerExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/http/src/main/java/CustomHttpServerExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h3 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="working-with-program-arguments">Working with program arguments<a
@@ -573,7 +573,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/core/boot/src/main/java/LauncherArgsExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/core/boot/src/main/java/LauncherArgsExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                             </div>
                                         </article>
@@ -625,7 +625,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>

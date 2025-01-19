@@ -63,7 +63,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -228,7 +228,7 @@
                                                             <div class="codeBlockContent_biex">
                                                                 <pre tabindex="0"
                                                                     class="prism-code language-bash codeBlock_bY9V thin-scrollbar"
-                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/activej/activej</span><br></span></code></pre>
+                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/hoangtien2k3/reactify-core</span><br></span></code></pre>
                                                                 <div class="buttonGroup__atx"><button type="button"
                                                                         aria-label="Copy code to clipboard" title="Copy"
                                                                         class="clean-btn"><span
@@ -260,7 +260,7 @@
                                                 <p>Let&#x27;s take a closer look at the <strong>Server Setup
                                                         Example</strong>. To make setup and launching as easy as
                                                     possible, there is a special <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/launchers/fs/src/main/java/io/activej/launchers/fs/SimpleTcpServerLauncher.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launchers/fs/src/main/java/io/activej/launchers/fs/SimpleTcpServerLauncher.java"
                                                         target="_blank"><code>SimpleTcpServerLauncher</code></a>, an
                                                     implementation of <a href="/boot/launcher">ActiveJ
                                                         <code>Launcher</code></a> (abstracted implementation of
@@ -278,7 +278,7 @@
                                                         business logic</li>
                                                 </ul>
                                                 <p>Then <em>launch</em> the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/launcher/src/main/java/io/activej/launcher/Launcher.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launcher/src/main/java/io/activej/launcher/Launcher.java"
                                                         target="_blank"><code>Launcher</code></a></p>
                                                 <div class="language-java codeBlockContainer_Ckt0 theme-code-block"
                                                     style="--prism-color:#F8F8F2;--prism-background-color:#282A36">
@@ -303,20 +303,20 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/ServerSetupExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/ServerSetupExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="file-upload">File
                                                     Upload<a href="#file-upload" class="hash-link"
                                                         aria-label="Direct link to File Upload"
                                                         title="Direct link to File Upload">​</a></h2>
                                                 <p><a href="#"><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
                                                             target="_blank"><code>FileUploadExample</code></a></a> also
                                                     extends <code>Launcher</code> and thus implements the above
                                                     <code>Launcher</code> methods.
                                                 </p>
                                                 <p>In this example, we will use an <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/IFileSystem.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/IFileSystem.java"
                                                         target="_blank">IFileSystem</a> instance that depends on the
                                                     asynchronous <a href="/async-io/eventloop">ActiveJ
                                                         <strong>Eventloop</strong></a>
@@ -324,9 +324,9 @@
                                                         href="/inject">ActiveJ Inject</a> DI library. It is lightning
                                                     fast, efficient, and perfectly compatible with Launcher. So we
                                                     simply <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Inject.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Inject.java"
                                                         target="_blank"><code>@Inject</code></a> two instances and add
-                                                    <a href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Provides.java"
+                                                    <a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/annotation/Provides.java"
                                                         target="_blank"><code>@Provides</code></a> factory methods.
                                                     As in the previous example, we will also overwrite
                                                     <code>Launcher</code>&#x27;s methods <code>onInit</code>,
@@ -334,11 +334,11 @@
                                                 </p>
                                                 <p>Also, this example uses the ActiveJ <a href="/async-io/csp">CSP</a>
                                                     component, specifically the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-csp/src/main/java/io/activej/csp/file/ChannelFileReader.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-csp/src/main/java/io/activej/csp/file/ChannelFileReader.java"
                                                         target="_blank"><code>ChannelFileReader</code></a> class. It
                                                     allows asynchronously reading binary data from files.</p>
                                                 <p>You can see full example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
                                                         target="_blank"><strong>GitHub</strong></a>, here we will
                                                     consider only the upload process that is defined in the overwritten
                                                     method <code>run</code>.</p>
@@ -365,14 +365,14 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="file-download">File
                                                     Download<a href="#file-download" class="hash-link"
                                                         aria-label="Direct link to File Download"
                                                         title="Direct link to File Download">​</a></h2>
                                                 <p><a href="#"><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
                                                             target="_blank">FileDownloadExample</a></a> has an
                                                     implementation similar to the <strong>File Upload</strong> example.
                                                     Here we will only look at the download process, which is defined in
@@ -400,7 +400,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="filesystem-decorator">FileSystem Decorator<a
@@ -413,7 +413,7 @@
                                                         target="_blank" rel="noopener noreferrer">Decorator</a> pattern
                                                     to do this.
                                                     The <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/DecoratedFileSystemExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/DecoratedFileSystemExample.java"
                                                         target="_blank">DecoratedFileSystemExample</a> demonstrates how
                                                     to do just that. It decorates the <code>IFileSystem</code>
                                                     implementation by adding additional logs for uploading and
@@ -487,9 +487,9 @@
                                                     upload/download starts and finishes.
                                                 </p>
                                                 <p>You can run <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileUploadExample.java"
                                                         target="_blank">FileUploadExample</a> followed by <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/FileDownloadExample.java"
                                                         target="_blank">FileDownloadExample</a>
                                                     After this you should see logging output:</p>
                                                 <div class="language-text codeBlockContainer_Ckt0 theme-code-block"
@@ -515,7 +515,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/DecoratedFileSystemExample.java"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/fs/src/main/java/DecoratedFileSystemExample.java"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="cluster-file-storage">Cluster File Storage<a
@@ -529,23 +529,23 @@
                                                     number of replicas.</p>
                                                 <p>The first thing we need to do is to create a
                                                     <code>ClusterTcpServerLauncher</code> class for our server. Extend
-                                                    <a href="https://github.com/activej/activej/blob/v6.0-beta2/launchers/fs/src/main/java/io/activej/launchers/fs/SimpleTcpServerLauncher.java"
+                                                    <a href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launchers/fs/src/main/java/io/activej/launchers/fs/SimpleTcpServerLauncher.java"
                                                         target="_blank"><code>SimpleTcpServerLauncher</code></a> to get
                                                     all the necessary instances: <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/tcp/FileSystemServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/tcp/FileSystemServer.java"
                                                         target="_blank"><code>FileSystemServer</code></a>, local <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/IFileSystem.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/IFileSystem.java"
                                                         target="_blank"><code>IFileSystem</code></a>, <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-http/src/main/java/io/activej/http/HttpServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-http/src/main/java/io/activej/http/HttpServer.java"
                                                         target="_blank"><code>HttpServer</code></a> for the GUI, which
                                                     will simplify working with your storage, and other helper instances.
                                                     In <code>ClusterTcpServerLauncher</code>, we will only need to
                                                     configure utils for repartitioning management, such as task
                                                     schedulers, <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/ClusterRepartitionController.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/ClusterRepartitionController.java"
                                                         target="_blank"><code>ClusterRepartitionController</code></a>,
                                                     and <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/FileSystemPartitions.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/FileSystemPartitions.java"
                                                         target="_blank"><code>FileSystemPartitions</code></a> to track
                                                     alive partitions and their statuses. The partitions will communicate
                                                     over TCP, while the GUI server will use HTTP.
@@ -579,7 +579,7 @@
                                                     provide an <code>HttpServer</code> for the GUI and
                                                     <code>FileSystemPartitions</code> for partition management. We also
                                                     need an instance of the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/ClusterFileSystem.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-fs/src/main/java/io/activej/fs/cluster/ClusterFileSystem.java"
                                                         target="_blank">ClusterFileSystem</a> class, an implementation
                                                     of <code>IFileSystem</code> that works with other partitions as a
                                                     cluster and contains some redundancy and fail tolerance features.
@@ -674,7 +674,7 @@
                                                     </div>
                                                 </div>
                                                 <p><strong><a
-                                                            href="https://github.com/activej/activej/blob/v6.0-beta2/launchers/fs"
+                                                            href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/launchers/fs"
                                                             target="_blank">See full example on GitHub</a></strong></p>
                                             </div>
                                         </article>
@@ -716,7 +716,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>

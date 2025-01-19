@@ -63,7 +63,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -255,7 +255,7 @@
                                                         aria-label="Direct link to Working Example"
                                                         title="Direct link to Working Example">​</a></h2>
                                                 <p>First of all, <a
-                                                        href="https://github.com/activej/activej/tree/examples-6.0-beta2"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/tree/examples-6.0-beta2"
                                                         target="_blank" rel="noopener noreferrer">clone ActiveJ
                                                         project</a> locally:</p>
                                                 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block"
@@ -263,7 +263,7 @@
                                                     <div class="codeBlockContent_biex">
                                                         <pre tabindex="0"
                                                             class="prism-code language-bash codeBlock_bY9V thin-scrollbar"
-                                                            style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone -b examples-6.0-beta2 https://github.com/activej/activej.git</span><br></span></code></pre>
+                                                            style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone -b examples-6.0-beta2 https://github.com/hoangtien2k3/reactify-core.git</span><br></span></code></pre>
                                                         <div class="buttonGroup__atx"><button type="button"
                                                                 aria-label="Copy code to clipboard" title="Copy"
                                                                 class="clean-btn"><span class="copyButtonIcons_eSgA"
@@ -298,13 +298,13 @@
                                                 <p>Since we need to implement two basic operations (<code>put</code> and
                                                     <code>get</code>), let&#x27;s start with the message classes that
                                                     are used to communicate between client and server, namely <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/PutRequest.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/PutRequest.java"
                                                         target="_blank">PutRequest</a>, <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/PutResponse.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/PutResponse.java"
                                                         target="_blank">PutResponse</a>, <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/GetRequest.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/GetRequest.java"
                                                         target="_blank">GetRequest</a>, and <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/GetResponse.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/GetResponse.java"
                                                         target="_blank">GetResponse</a>.
                                                     Instances of these classes are serialized using a lightning-fast
                                                     serializer library <a href="/serializer">ActiveJ Serializer</a>.
@@ -404,7 +404,7 @@
                                                 </div>
                                                 <p>Next, let&#x27;s look at a simple implementation of a key-value
                                                     storage, the <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/KeyValueStore.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/KeyValueStore.java"
                                                         target="_blank">KeyValueStore</a></p>
                                                 <div class="language-java codeBlockContainer_Ckt0 theme-code-block"
                                                     style="--prism-color:#F8F8F2;--prism-background-color:#282A36">
@@ -436,7 +436,7 @@
                                                         aria-label="Direct link to Client and server"
                                                         title="Direct link to Client and server">​</a></h4>
                                                 <p>Now let&#x27;s look at the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/module/AbstractModule.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/core-inject/src/main/java/io/activej/inject/module/AbstractModule.java"
                                                         target="_blank">AbstractModule</a> for the RPC server, which
                                                     uses the <a href="/inject">ActiveJ Inject</a> dependency injection
                                                     library to handle <code>get</code> and <code>put</code> requests.
@@ -464,11 +464,11 @@
                                                     </div>
                                                 </div>
                                                 <p>As you can see, to properly define the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcServer.java"
                                                         target="_blank">RpcServer</a>, we specified all the message
                                                     classes that are sent between client and server, and specified the
                                                     corresponding <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcRequestHandler.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcRequestHandler.java"
                                                         target="_blank">RpcRequestHandler</a> for each request class.
                                                 </p>
                                                 <p>We have specified them as the second arguments in these lines, using
@@ -525,7 +525,7 @@
                                                 <p>Order of message types matters and should match on server and client
                                                     side.</p>
                                                 <p>Next, let&#x27;s look at the <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/ServerLauncher.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/ServerLauncher.java"
                                                         target="_blank"><code>ServerLauncher</code></a> for the RPC
                                                     server. The <a href="/boot/launcher">ActiveJ Launcher</a> is used
                                                     here to manage the lifecycle of the application:</p>
@@ -561,7 +561,7 @@
                                                     specified the <a href="/rpc/basic-examples#round-robin-strategy">RPC
                                                         strategy</a>. All strategies can be combined, but since we have
                                                     only one server, we use a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/SingleServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/SingleServer.java"
                                                         target="_blank">single-server</a> strategy:</p>
                                                 <div class="language-java codeBlockContainer_Ckt0 theme-code-block"
                                                     style="--prism-color:#F8F8F2;--prism-background-color:#282A36">
@@ -586,7 +586,7 @@
                                                     </div>
                                                 </div>
                                                 <p>Let&#x27;s also take a look at the <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/ClientLauncher.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/tutorials/rpc-kv-storage/src/main/java/ClientLauncher.java"
                                                         target="_blank">ClientLauncher</a>. In the <code>run()</code>
                                                     method, we are parsing command line arguments and make appropriate
                                                     requests to the <strong>RpcServer</strong></p>
@@ -725,7 +725,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>

@@ -62,7 +62,7 @@
                         href="/overview">Docs</a><a class="navbar__item navbar__link"
                         href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
-                        href="/blog">Blog</a><a href="https://github.com/activej/activej" target="_blank"
+                        href="/blog">Blog</a><a href="https://github.com/hoangtien2k3/reactify-core" target="_blank"
                         rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5"
                             height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU">
                             <path fill="currentColor"
@@ -239,7 +239,7 @@
                                                             <div class="codeBlockContent_biex">
                                                                 <pre tabindex="0"
                                                                     class="prism-code language-shell codeBlock_bY9V thin-scrollbar"
-                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/activej/activej</span><br></span></code></pre>
+                                                                    style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git clone https://github.com/hoangtien2k3/reactify-core</span><br></span></code></pre>
                                                                 <div class="buttonGroup__atx"><button type="button"
                                                                         aria-label="Copy code to clipboard" title="Copy"
                                                                         class="clean-btn"><span
@@ -328,18 +328,18 @@
                                                     us manage the lifecycle of the application.</p>
                                                 <p>Next, we use the Dependency Injection library <a
                                                         href="/inject">ActiveJ Inject</a> to provide <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcServer.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcServer.java"
                                                         target="_blank"><code>RPC Server</code></a> and <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/IRpcClient.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/IRpcClient.java"
                                                         target="_blank"><code>RPC Client</code></a> with the appropriate
                                                     configurations and necessary dependencies. The
                                                     <code>RPC Client</code> sends requests with a String message to the
                                                     specified server according to the provided <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/RpcStrategies.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/RpcStrategies.java"
                                                         target="_blank">RPC strategy</a> (getting a single RPC-service).
                                                     For the <code>RpcServer</code> we define the message types to
                                                     handle, a corresponding <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcRequestHandler.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/server/RpcRequestHandler.java"
                                                         target="_blank"><code>RpcRequestHandler</code></a> and a listen
                                                     port.
                                                 </p>
@@ -357,7 +357,7 @@
                                                 <p>Finally, we define the <code>main</code> method, which will launch
                                                     our example.</p>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/RpcExample.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/examples-6.0-beta2/examples/cloud/rpc/src/main/java/RpcExample.java"
                                                         target="_blank"><strong>GitHub</strong></a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="round-robin-strategy">Round-Robin Strategy<a
@@ -366,7 +366,7 @@
                                                         title="Direct link to Round-Robin Strategy">​</a></h2>
                                                 <p>ActiveJ RPC contains predefined strategies for arranging requests
                                                     between RPC servers or shards of servers. <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/RoundRobin.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/RoundRobin.java"
                                                         target="_blank">Round-Robin</a> is one of the simplest of
                                                     strategies: it simply cycles through servers or shards one by one.
                                                 </p>
@@ -399,7 +399,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L42-L69"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L42-L69"
                                                         target="_blank"><strong>GitHub</strong></a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="round-robin-and-first-available-strategies-combined">Round-Robin
@@ -411,9 +411,9 @@
                                                 </h2>
                                                 <p>You can simply combine RPC strategies. In this example, we will
                                                     combine a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/RoundRobin.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/RoundRobin.java"
                                                         target="_blank">Round Robin</a> and a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/FirstAvailable.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/FirstAvailable.java"
                                                         target="_blank">First Available</a> strategies.</p>
                                                 <p>First, we create 4 connections without putting <em>connection3</em>
                                                     into the pool. Then we start sending 20 requests.
@@ -445,7 +445,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L72-L96"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L72-L96"
                                                         target="_blank">GitHub</a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="sharding-and-first-valid-strategies-combined">Sharding and First
@@ -461,7 +461,7 @@
                                                     Next, we provide a simple sharding function that distributes
                                                     requests among shards according to the content of the request. We
                                                     split the connections into two shards and set a <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/FirstValidResult.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/strategy/impl/FirstValidResult.java"
                                                         target="_blank">First Valid Result</a> strategy for both. This
                                                     strategy sends the request to all available servers.</p>
                                                 <p>Now, we manually send 7 requests:</p>
@@ -494,7 +494,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L101-L133"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L101-L133"
                                                         target="_blank"><strong>GitHub</strong></a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="rendezvous-hashing-strategy">Rendezvous Hashing Strategy<a
@@ -502,7 +502,7 @@
                                                         aria-label="Direct link to Rendezvous Hashing Strategy"
                                                         title="Direct link to Rendezvous Hashing Strategy">​</a></h2>
                                                 <p>Rendezvous hashing strategy pre-computes the hash function for the <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/RpcSender.java"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/main/java/io/activej/rpc/client/sender/RpcSender.java"
                                                         target="_blank"><code>RpcSender</code></a> and creates a map of
                                                     RPC servers. The map is stored in a cache and will be recalculated
                                                     only if servers go online/offline.</p>
@@ -557,7 +557,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.javaL138-L177"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.javaL138-L177"
                                                         target="_blank"><strong>GitHub</strong></a></p>
                                                 <h2 class="anchor anchorWithStickyNavbar_LWe7"
                                                     id="type-dispatch-strategy">Type Dispatch Strategy<a
@@ -600,7 +600,7 @@
                                                     </div>
                                                 </div>
                                                 <p>You can find example sources on <a
-                                                        href="https://github.com/activej/activej/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L182-L217"
+                                                        href="https://github.com/hoangtien2k3/reactify-core/blob/v6.0-beta2/cloud-rpc/src/test/java/io/activej/rpc/client/sender/RpcStrategiesTest.java#L182-L217"
                                                         target="_blank"><strong>GitHub</strong></a></p>
                                             </div>
                                         </article>
@@ -648,7 +648,7 @@
         <footer class="footer">
             <div class="container container-fluid">
                 <div class="footer__bottom text--center">
-                    <div class="footer__copyright">Copyright © 2024 ActiveJ LLC. All Rights Reserved</div>
+                    <div class="footer__copyright">Copyright © 2025 Hoàng Anh Tiến</div>
                 </div>
             </div>
         </footer>
