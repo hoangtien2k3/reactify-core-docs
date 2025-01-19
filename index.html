@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="generator" content="Docusaurus v3.1.0">
-    <title data-rh="true">ActiveJ | Alternative Java platform for web, high load, and cloud programming | ActiveJ 6.0
+    <title data-rh="true">Reactify-Core | Alternative Java platform for web, high load, and cloud programming |
+        Reactify-Core 6.0
     </title>
     <meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1">
     <meta data-rh="true" name="twitter:card" content="summary_large_image">
@@ -17,19 +18,19 @@
     <meta data-rh="true" name="docsearch:language" content="en">
     <meta data-rh="true" name="docsearch:docusaurus_tag" content="default">
     <meta data-rh="true" property="og:title"
-        content="ActiveJ | Alternative Java platform for web, high load, and cloud programming | ActiveJ 6.0">
+        content="Reactify-Core | Alternative Java platform for web, high load, and cloud programming | Reactify-Core 6.0">
     <meta data-rh="true" name="description"
-        content="ActiveJ is an alternative Java platform built from the ground up for web, high load, and cloud programming as a replacement for Spring, Quarkus, Vert.x and other sub-optimal solutions">
+        content="Reactify-Core is an alternative Java platform built from the ground up for web, high load, and cloud programming as a replacement for Spring, Quarkus, Vert.x and other sub-optimal solutions">
     <meta data-rh="true" property="og:description"
-        content="ActiveJ is an alternative Java platform built from the ground up for web, high load, and cloud programming as a replacement for Spring, Quarkus, Vert.x and other sub-optimal solutions">
-    <link data-rh="true" rel="icon" href="/./img/favicon.png">
+        content="Reactify-Core is an alternative Java platform built from the ground up for web, high load, and cloud programming as a replacement for Spring, Quarkus, Vert.x and other sub-optimal solutions">
+    <link data-rh="true" rel="icon" href="/./img/logo.png">
     <link data-rh="true" rel="canonical" href="https://activej.io/">
     <link data-rh="true" rel="alternate" href="https://activej.io/" hreflang="en">
     <link data-rh="true" rel="alternate" href="https://activej.io/" hreflang="x-default">
     <script
         data-rh="true">function insertBanner() { var n = document.createElement("div"); n.id = "__docusaurus-base-url-issue-banner-container"; n.innerHTML = '\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n', document.body.prepend(n); var e = document.getElementById("__docusaurus-base-url-issue-banner-suggestion-container"), s = window.location.pathname, o = "/" === s.substr(-1) ? s : s + "/"; e.innerHTML = o } document.addEventListener("DOMContentLoaded", (function () { void 0 === window.docusaurus && insertBanner() }))</script>
-    <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="ActiveJ 6.0 RSS Feed">
-    <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="ActiveJ 6.0 Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Reactify-Core 6.0 RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Reactify-Core 6.0 Atom Feed">
 
     <link rel="preconnect" href="https://www.google-analytics.com">
     <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -53,10 +54,10 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
                                 d="M4 7h22M4 15h22M4 23h22"></path>
                         </svg></button><a class="navbar__brand" href="/">
-                        <div class="navbar__logo"><img src="/./img/logo.webp" alt="Logo"
-                                class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/./img/logo.webp"
+                        <div class="navbar__logo"><img src="/./img/logo.png" alt="Logo"
+                                class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/./img/logo.png"
                                 alt="Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b
-                            class="navbar__title text--truncate">ActiveJ</b>
+                            class="navbar__title text--truncate">Reactify-Core</b>
                     </a><a class="navbar__item navbar__link" href="/overview">Docs</a><a
                         class="navbar__item navbar__link" href="/tutorials/getting-started">Tutorials</a></div>
                 <div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link"
@@ -238,203 +239,6 @@
                     </div>
                 </div>
             </header>
-            <main class="m-0">
-                <section class="flex flex-col items-center padding-vert--xl patternBackground_NtkT">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col--3 padding-vert--md">
-                                <div class="flex flex-col justify-center items-center">
-                                    <div class="iconContainer_SRAH"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                                            viewBox="0 0 24 24" width="24" class="icon_vPnt">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z"></path>
-                                        </svg></div>
-                                    <div
-                                        class="card flex flex-col justify-center items-center padding--md cardBody_S5b1">
-                                        <div class="flex flex-row items-center">
-                                            <h3 class="featureTitle_JsdT">Minimum dependencies</h3>
-                                        </div>
-                                        <p class="m-0 text--center">Lightweight minimalistic self-sufficient Java
-                                            libraries without third-party dependencies</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col--3 padding-vert--md">
-                                <div class="flex flex-col justify-center items-center">
-                                    <div class="iconContainer_SRAH"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                                            viewBox="0 0 24 24" width="24" class="icon_vPnt">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path
-                                                d="m11.99 18.54-7.37-5.73L3 14.07l9 7 9-7-1.63-1.27-7.38 5.74zM12 16l7.36-5.73L21 9l-9-7-9 7 1.63 1.27L12 16z">
-                                            </path>
-                                        </svg></div>
-                                    <div
-                                        class="card flex flex-col justify-center items-center padding--md cardBody_S5b1">
-                                        <div class="flex flex-row items-center">
-                                            <h3 class="featureTitle_JsdT">Rich stack</h3>
-                                        </div>
-                                        <p class="m-0 text--center">Features a rich stack of technologies for building
-                                            fast asynchronous applications</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col--3 padding-vert--md">
-                                <div class="flex flex-col justify-center items-center">
-                                    <div class="iconContainer_SRAH"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                                            viewBox="0 0 24 24" width="24" class="icon_vPnt">
-                                            <path d="M0 0h24v24H0V0z" fill="none"></path>
-                                            <path
-                                                d="M23 15h-2v2h2v-2zm0-4h-2v2h2v-2zm0 8h-2v2c1 0 2-1 2-2zM15 3h-2v2h2V3zm8 4h-2v2h2V7zm-2-4v2h2c0-1-1-2-2-2zM3 21h8v-6H1v4c0 1.1.9 2 2 2zM3 7H1v2h2V7zm12 12h-2v2h2v-2zm4-16h-2v2h2V3zm0 16h-2v2h2v-2zM3 3C2 3 1 4 1 5h2V3zm0 8H1v2h2v-2zm8-8H9v2h2V3zM7 3H5v2h2V3z">
-                                            </path>
-                                        </svg></div>
-                                    <div
-                                        class="card flex flex-col justify-center items-center padding--md cardBody_S5b1">
-                                        <div class="flex flex-row items-center">
-                                            <h3 class="featureTitle_JsdT">Overhead-free</h3>
-                                        </div>
-                                        <p class="m-0 text--center">Minimalist design with no overhead for competitive
-                                            performance</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col--3 padding-vert--md">
-                                <div class="flex flex-col justify-center items-center">
-                                    <div class="iconContainer_SRAH"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                                            viewBox="0 0 24 24" width="24" class="icon_vPnt">
-                                            <path d="M0 0h24v24H0V0z" fill="none"></path>
-                                            <path
-                                                d="M10 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h5v2h2V1h-2v2zm0 15H5l5-6v6zm9-15h-5v2h5v13l-5-6v9h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
-                                            </path>
-                                        </svg></div>
-                                    <div
-                                        class="card flex flex-col justify-center items-center padding--md cardBody_S5b1">
-                                        <div class="flex flex-row items-center">
-                                            <h3 class="featureTitle_JsdT">Alternative approach</h3>
-                                        </div>
-                                        <p class="m-0 text--center">An alternative to Spring, Micronaut, Apache Spark,
-                                            Quarkus, and other solutions</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="padding-vert--xl">
-                    <div class="container">
-                        <h2 class="margin-bottom--sm text--center">Components</h2>
-                        <p class="text-gray-600 text--center">A simple set of loosely coupled modules without
-                            third-party dependencies</p>
-                        <div class="row">
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/async-io/eventloop">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">Async-IO</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Asynchronous IO processing</h4>
-                                            <p>High-performance asynchronous IO with efficient event loop, promises and
-                                                streaming protocols. Inspired by the Node.js approach</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/http">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">HTTP</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>One of the fastest HTTP servers</h4>
-                                            <p>Asynchronous HTTP server and client with WebSocket support. Suitable for
-                                                handling millions of requests per second</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/inject">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">Inject</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Dependency injection library</h4>
-                                            <p>Optimized for fast application start-up and runtime performance. Provides
-                                                dependency graph introspection capabilities</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/serializer">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">Serializer</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>The fastest JVM serializer</h4>
-                                            <p>Annotation-based serialization with dynamically generated serializers.
-                                                Support for subclasses, collections, and specialized collections</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                        </div>
-                        <div class="row">
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/codegen">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">Codegen</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Class generation on the fly</h4>
-                                            <p>Dynamic bytecode generation on top of ObjectWeb ASM library. Create
-                                                custom classes on the fly using Lisp-like AST expressions</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/specializer">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">Specializer</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Speeding up your code</h4>
-                                            <p>Improve class performance at runtime by automatically rewriting classes,
-                                                replacing dynamic innovations with static method calls</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/fs">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">FS</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Managing file systems</h4>
-                                            <p>Tiny asynchronous abstraction on top of common file operations. Local or
-                                                remote file storages, as well as cluster storages for big data</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                            <div class="col col--3 padding-vert--md"><a class="link_Wh3L" href="/rpc">
-                                    <div class="card card_xmxr">
-                                        <div class="body_ARna"><img height="24px" width="24px" class="logo_d7jp"
-                                                src="./img/logo.webp" alt="logo">
-                                            <h3 class="subtitle_QMKo m-0">RPC</h3>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Binary protocol for microservices</h4>
-                                            <p>Library for high-load distributed applications. An alternative to
-                                                microservice architecture without HTTP overhead</p>
-                                        </div>
-                                    </div>
-                                </a></div>
-                        </div>
-                    </div>
-                </section>
-            </main>
         </div>
         <footer class="footer">
             <div class="container container-fluid">
