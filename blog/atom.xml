@@ -260,9 +260,9 @@ minor improvements mainly for <a href="https://activej.io/http">HTTP client/serv
         <summary type="html"><![CDATA[ActiveJ v5.1 was released Jan 4,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.1 was released Jan 4,
 2022 (<a href="https://mvnrepository.com/artifact/io.activej/activej/5.1" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release includes
-improvements to <a href="https://activej.io/fs">ActiveJ FS</a>, <a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/launcher">boot</a> modules in general.</p>
+improvements to <a href="https://activej.io/fs">ActiveJ FS</a>, <a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/springboot3x">boot</a> modules in general.</p>
 <ul>
-<li><a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/launcher">boot</a> modules<!-- -->
+<li><a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/springboot3x">boot</a> modules<!-- -->
 <ul>
 <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/boot-triggers/src/main/java/io/activej/trigger/TriggersModule.java" target="_blank" rel="noopener noreferrer">TriggersModule</a>
 now properly handles <a href="https://activej.io/inject/optional-dependencies">optional dependencies</a></li>
