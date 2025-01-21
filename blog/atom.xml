@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://activej.io/blog</id>
+    <id>https://reactify-sand.vercel.app/blog</id>
     <title>Reactify-Core Blog</title>
     <updated>2023-06-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://activej.io/blog"/>
+    <link rel="alternate" href="https://reactify-sand.vercel.app/blog"/>
     <subtitle>Reactify-Core Blog</subtitle>
-    <icon>https://activej.io/./img/logo.png</icon>
+    <icon>https://reactify-sand.vercel.app/./img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.5 - Performance improvements and bug fixes]]></title>
-        <id>https://activej.io/blog/2023/06/15/v5.5</id>
-        <link href="https://activej.io/blog/2023/06/15/v5.5"/>
+        <id>https://reactify-sand.vercel.app/blog/2023/06/15/v5.5</id>
+        <link href="https://reactify-sand.vercel.app/blog/2023/06/15/v5.5"/>
         <updated>2023-06-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.5 was released on Jun 15,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.5 was released on Jun 15,
@@ -25,23 +25,23 @@ introduces bug fixes, as well as some performance improvements.</p>
 <li>Made <code>Checks</code> enabled by default if Java's assertions are enabled.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/misc/bytebuf">ByteBuf</a>
+<li><a href="https://reactify-sand.vercel.app/misc/bytebuf">ByteBuf</a>
 <ul>
 <li>Fixed UTF-8 encoding in <code>ByteBufStrings</code>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/async-io/eventloop">Eventloop</a>
+<li><a href="https://reactify-sand.vercel.app/async-io/eventloop">Eventloop</a>
 <ul>
 <li>Improved performance of scheduled tasks. Minimized garbage collection required for task scheduling.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/inject">Inject</a>
+<li><a href="https://reactify-sand.vercel.app/inject">Inject</a>
 <ul>
 <li>Added the ability to create bindings out of Java's constructors.</li>
 <li>Simplified wildcard types in <code>KeyPattern</code>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/rpc">RPC</a>
+<li><a href="https://reactify-sand.vercel.app/rpc">RPC</a>
 <ul>
 <li>Improved <code>RpcClient</code> start/stop routine.</li>
 <li>Added launcher for multithreaded RPC server.</li>
@@ -49,7 +49,7 @@ introduces bug fixes, as well as some performance improvements.</p>
 active connections.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/http">HTTP</a>
+<li><a href="https://reactify-sand.vercel.app/http">HTTP</a>
 <ul>
 <li>Fixed inspector notification about malformed data exceptions.</li>
 <li>Improved shutdown routine of <code>HttpClient</code>.</li>
@@ -59,7 +59,7 @@ active connections.</li>
 as per <a href="https://datatracker.ietf.org/doc/html/rfc2046#section-5.1.1" target="_blank" rel="noopener noreferrer">RFC</a>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/async-io/datastream">Datastream</a>
+<li><a href="https://reactify-sand.vercel.app/async-io/datastream">Datastream</a>
 <ul>
 <li>Fixed <code>ChannelSerializer</code> behavior on exception occurances.</li>
 <li>Added <code>StreamLimiter</code> class that limits number of items that pass via datastream pipeline.</li>
@@ -67,14 +67,14 @@ as per <a href="https://datatracker.ietf.org/doc/html/rfc2046#section-5.1.1" tar
 <li>Fixed stats aggregation in <code>StreamStatsForwarder</code>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/codegen">Codegen</a>
+<li><a href="https://reactify-sand.vercel.app/codegen">Codegen</a>
 <ul>
 <li>Fixed method invocations on interfaces.</li>
 <li>Improved class caching in <code>RecordScheme</code>.</li>
 <li>Compared fields in <code>RecordScheme</code> are now transfered to the projection.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/serializer">Serializer</a>
+<li><a href="https://reactify-sand.vercel.app/serializer">Serializer</a>
 <ul>
 <li>Restricted non-static inner classes to be used for serialization.</li>
 <li>Fixed closing routine in <code>StreamInput</code>.</li>
@@ -83,7 +83,7 @@ as per <a href="https://datatracker.ietf.org/doc/html/rfc2046#section-5.1.1" tar
 instances.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/specializer">Specializer</a>
+<li><a href="https://reactify-sand.vercel.app/specializer">Specializer</a>
 <ul>
 <li>Refactored ActiveJ Specializer to perform well on conditional code.</li>
 </ul>
@@ -99,8 +99,8 @@ instances.</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.4.3 - Simplified custom serializers]]></title>
-        <id>https://activej.io/blog/2022/09/16/v5.4.3</id>
-        <link href="https://activej.io/blog/2022/09/16/v5.4.3"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/09/16/v5.4.3</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/09/16/v5.4.3"/>
         <updated>2022-09-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.4.3 was released on Sep 16,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.4.3 was released on Sep 16,
@@ -113,8 +113,8 @@ classes can now be created without the use of the Expressions API</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.4.2 - Minor bug fixes]]></title>
-        <id>https://activej.io/blog/2022/09/05/v5.4.2</id>
-        <link href="https://activej.io/blog/2022/09/05/v5.4.2"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/09/05/v5.4.2</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/09/05/v5.4.2"/>
         <updated>2022-09-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.4.2 was released on Sep 5,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.4.2 was released on Sep 5,
@@ -122,13 +122,13 @@ classes can now be created without the use of the Expressions API</li>
 minor bug fixes for stream codecs.</p>
 <ul>
 <li>Fixed a bug when a stream codec tried to safely decode more items than are present in the input of the stream.</li>
-<li>Relative path tests in <a href="https://activej.io/fs">ActiveJ FS</a> are ignored when the project directory is located on a drive other than the temporary directory.</li>
+<li>Relative path tests in <a href="https://reactify-sand.vercel.app/fs">ActiveJ FS</a> are ignored when the project directory is located on a drive other than the temporary directory.</li>
 </ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.4.1 - Stream Codecs optimizations]]></title>
-        <id>https://activej.io/blog/2022/08/31/v5.4.1</id>
-        <link href="https://activej.io/blog/2022/08/31/v5.4.1"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/08/31/v5.4.1</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/08/31/v5.4.1"/>
         <updated>2022-08-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.4.1 was released on Aug 31,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.4.1 was released on Aug 31,
@@ -141,33 +141,33 @@ optimizations for Stream Codecs to optimize memory usage.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.4 - Codegen and Serializer optimizations]]></title>
-        <id>https://activej.io/blog/2022/08/19/v5.4</id>
-        <link href="https://activej.io/blog/2022/08/19/v5.4"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/08/19/v5.4</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/08/19/v5.4"/>
         <updated>2022-08-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.4 was released on Aug 19,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.4 was released on Aug 19,
 2022 (<a href="https://mvnrepository.com/artifact/io.activej/activej/5.4" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release includes
-improvements to <a href="https://activej.io/codegen">ActiveJ Codegen</a>,<a href="https://activej.io/serializer">ActiveJ Serializer</a>, and minor fixes to other
+improvements to <a href="https://reactify-sand.vercel.app/codegen">ActiveJ Codegen</a>,<a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>, and minor fixes to other
 components.</p>
 <ul>
-<li><a href="https://activej.io/codegen">ActiveJ Codegen</a>
+<li><a href="https://reactify-sand.vercel.app/codegen">ActiveJ Codegen</a>
 <ul>
 <li>Generated method calls that use <code>self</code> instances as method arguments are now automatically resolved.</li>
 <li>Slightly optimized method lookup.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/serializer">ActiveJ Serializer</a>
+<li><a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>
 <ul>
 <li>Optimized serializer builder's cache. Ensured that previously defined serializers are reused.</li>
 <li>Ensured that dangling references are cleaned up if serialization fails.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/async-io/net">Net</a>
+<li><a href="https://reactify-sand.vercel.app/async-io/net">Net</a>
 <ul>
 <li>Fix order of promise completion when SSL socket receives <code>close_notify</code> message.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/http">HTTP</a>
+<li><a href="https://reactify-sand.vercel.app/http">HTTP</a>
 <ul>
 <li>Multimap of HTTP headers is now properly resized.</li>
 <li>Fatal errors in HTTP server connections are now handled correctly.</li>
@@ -186,8 +186,8 @@ the next major release.</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.3 - JMX improvements]]></title>
-        <id>https://activej.io/blog/2022/06/17/v5.3</id>
-        <link href="https://activej.io/blog/2022/06/17/v5.3"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/06/17/v5.3</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/06/17/v5.3"/>
         <updated>2022-06-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.3 was released Jun 17,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.3 was released Jun 17,
@@ -201,18 +201,18 @@ minor improvements to JMX, as well as several bug fixes.</p>
 <li>Added the ability to specify a predicate for whether worker instances should be registered in JMX or not.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/codegen">ActiveJ Codegen</a>
+<li><a href="https://reactify-sand.vercel.app/codegen">ActiveJ Codegen</a>
 <ul>
 <li>Ability to use parameterized types for record fields has been added.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/http">HTTP</a>
+<li><a href="https://reactify-sand.vercel.app/http">HTTP</a>
 <ul>
 <li>Fixed a bug with quality factors parsing in headers.</li>
 <li>Improved handling of runtime exceptions.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/async-io/datastream">Datastream</a>
+<li><a href="https://reactify-sand.vercel.app/async-io/datastream">Datastream</a>
 <ul>
 <li>Fixed acknowledgement completion in <code>StreamReducer</code> as well as in several <code>StreamConsumer</code>s</li>
 </ul>
@@ -221,15 +221,15 @@ minor improvements to JMX, as well as several bug fixes.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.2 - Minor improvements]]></title>
-        <id>https://activej.io/blog/2022/04/19/v5.2</id>
-        <link href="https://activej.io/blog/2022/04/19/v5.2"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/04/19/v5.2</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/04/19/v5.2"/>
         <updated>2022-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.2 was released Apr 19,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.2 was released Apr 19,
 2022 (<a href="https://mvnrepository.com/artifact/io.activej/activej/5.2" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release includes
-minor improvements mainly for <a href="https://activej.io/http">HTTP client/server</a> and <a href="https://activej.io/serializer">ActiveJ Serializer</a>.</p>
+minor improvements mainly for <a href="https://reactify-sand.vercel.app/http">HTTP client/server</a> and <a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>.</p>
 <ul>
-<li><a href="https://activej.io/http">HTTP</a>
+<li><a href="https://reactify-sand.vercel.app/http">HTTP</a>
 <ul>
 <li>Added dedicated enum for setting <code>SameSite</code> policy on cookies.</li>
 <li>Malformed HTTP requests now result in a code <code>400</code> response rather than connection drop.</li>
@@ -239,13 +239,13 @@ minor improvements mainly for <a href="https://activej.io/http">HTTP client/serv
 <li>Minor improvements of the <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1.1/core-http/src/main/java/io/activej/http/UrlParser.java" target="_blank" rel="noopener noreferrer">UrlParser</a>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/serializer">ActiveJ Serializer</a>
+<li><a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>
 <ul>
 <li>Added additional preconditions for subclass serializer.</li>
 <li>Removed unnecessary caching from <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1.1/core-serializer/src/main/java/io/activej/serializer/SerializerBuilder.java" target="_blank" rel="noopener noreferrer">SerializerBuilder</a>.</li>
 </ul>
 </li>
-<li><a href="https://activej.io/fs">ActiveJ FS</a>
+<li><a href="https://reactify-sand.vercel.app/fs">ActiveJ FS</a>
 <ul>
 <li>Storage paths are now normalized, so local file systems now work properly with relative storage paths.</li>
 </ul>
@@ -254,24 +254,24 @@ minor improvements mainly for <a href="https://activej.io/http">HTTP client/serv
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.1 - Boot and ActiveJ FS improvements]]></title>
-        <id>https://activej.io/blog/2022/01/04/v5.1</id>
-        <link href="https://activej.io/blog/2022/01/04/v5.1"/>
+        <id>https://reactify-sand.vercel.app/blog/2022/01/04/v5.1</id>
+        <link href="https://reactify-sand.vercel.app/blog/2022/01/04/v5.1"/>
         <updated>2022-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.1 was released Jan 4,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.1 was released Jan 4,
 2022 (<a href="https://mvnrepository.com/artifact/io.activej/activej/5.1" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release includes
-improvements to <a href="https://activej.io/fs">ActiveJ FS</a>, <a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/springboot3x">boot</a> modules in general.</p>
+improvements to <a href="https://reactify-sand.vercel.app/fs">ActiveJ FS</a>, <a href="https://reactify-sand.vercel.app/inject">ActiveJ Inject</a> and <a href="https://reactify-sand.vercel.app/boot/springboot3x">boot</a> modules in general.</p>
 <ul>
-<li><a href="https://activej.io/inject">ActiveJ Inject</a> and <a href="https://activej.io/boot/springboot3x">boot</a> modules<!-- -->
+<li><a href="https://reactify-sand.vercel.app/inject">ActiveJ Inject</a> and <a href="https://reactify-sand.vercel.app/boot/springboot3x">boot</a> modules<!-- -->
 <ul>
 <li><a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/boot-triggers/src/main/java/io/activej/trigger/TriggersModule.java" target="_blank" rel="noopener noreferrer">TriggersModule</a>
-now properly handles <a href="https://activej.io/inject/optional-dependencies">optional dependencies</a></li>
+now properly handles <a href="https://reactify-sand.vercel.app/inject/optional-dependencies">optional dependencies</a></li>
 <li>Nested optional dependencies (e.g. <code>OptionalDependency&lt;OptionalDependency&lt;?&gt;&gt;</code>) are prohibited</li>
 <li>Services (as well as those obtained from an optional dependencies) are guaranteed to start/stop exactly once</li>
 <li>Added shortcuts for obtaining optional dependencies from <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/core-inject/src/main/java/io/activej/inject/Injector.java" target="_blank" rel="noopener noreferrer">Injector</a></li>
 </ul>
 </li>
-<li><a href="https://activej.io/fs">ActiveJ FS</a>
+<li><a href="https://reactify-sand.vercel.app/fs">ActiveJ FS</a>
 <ul>
 <li>Added a new <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.1/cloud-fs/src/main/java/io/activej/fs/exception/ActiveFsStructureException.java" target="_blank" rel="noopener noreferrer">exception</a> to
 indicate errors in a structure of a file system.</li>
@@ -283,27 +283,27 @@ indicate errors in a structure of a file system.</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 5.0 - New major release]]></title>
-        <id>https://activej.io/blog/2021/10/29/v5.0</id>
-        <link href="https://activej.io/blog/2021/10/29/v5.0"/>
+        <id>https://reactify-sand.vercel.app/blog/2021/10/29/v5.0</id>
+        <link href="https://reactify-sand.vercel.app/blog/2021/10/29/v5.0"/>
         <updated>2021-10-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v5.0 was released Oct 29,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v5.0 was released Oct 29,
 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/5.0" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release includes
-major changes in <a href="https://activej.io/inject">ActiveJ Inject</a>, <a href="https://activej.io/codegen">ActiveJ Codegen</a>, <a href="https://activej.io/serializer">ActiveJ Serializer</a>
-<a href="https://activej.io/async-io/promise">promises API</a>. The release also introduced improved type scanning facility and
+major changes in <a href="https://reactify-sand.vercel.app/inject">ActiveJ Inject</a>, <a href="https://reactify-sand.vercel.app/codegen">ActiveJ Codegen</a>, <a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>
+<a href="https://reactify-sand.vercel.app/async-io/promise">promises API</a>. The release also introduced improved type scanning facility and
 overall minor improvements in other components.</p>
 <ul>
-<li><a href="https://activej.io/inject">ActiveJ Inject</a>
+<li><a href="https://reactify-sand.vercel.app/inject">ActiveJ Inject</a>
 <ul>
 <li>Refactored and simplified inner components to speed up dependency injection and provide better support for binding
-<a href="https://activej.io/specializer">specialization</a></li>
+<a href="https://reactify-sand.vercel.app/specializer">specialization</a></li>
 <li>Simplified type resolution in dependency injection</li>
-<li>Added the ability to transform imported and exported bindings using patterns (see <a href="https://activej.io/inject/binding-transformation">example</a>)</li>
+<li>Added the ability to transform imported and exported bindings using patterns (see <a href="https://reactify-sand.vercel.app/inject/binding-transformation">example</a>)</li>
 <li>Replaced <code>@Optional</code> annotation with an explicit <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-inject/src/main/java/io/activej/inject/binding/OptionalDependency.java" target="_blank" rel="noopener noreferrer">OptionalDependency</a>
 class</li>
 </ul>
 </li>
-<li><a href="https://activej.io/codegen">ActiveJ Codegen</a>
+<li><a href="https://reactify-sand.vercel.app/codegen">ActiveJ Codegen</a>
 <ul>
 <li>Improved <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/ClassBuilder.java" target="_blank" rel="noopener noreferrer">ClassBuilder</a> and <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/core-codegen/src/main/java/io/activej/codegen/DefiningClassLoader.java" target="_blank" rel="noopener noreferrer">DefiningClassLoader</a> classes</li>
 <li>Class generation may now be 100% lazy</li>
@@ -313,7 +313,7 @@ class</li>
 <li>Improved built-in expressions for array/collection/map iteration</li>
 </ul>
 </li>
-<li><a href="https://activej.io/serializer">ActiveJ Serializer</a>
+<li><a href="https://reactify-sand.vercel.app/serializer">ActiveJ Serializer</a>
 <ul>
 <li>Added the ability to specify serializer annotations directly on type use (see <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/examples/core/serializer/src/main/java/SerializeNoPathExample.java" target="_blank" rel="noopener noreferrer">example</a>)</li>
 <li>Automatic class member ordering is now supported within the same JVM</li>
@@ -323,7 +323,7 @@ class</li>
 <li>Abstract collection serializers now support builder pattern</li>
 </ul>
 </li>
-<li><a href="https://activej.io/async-io/promise">Promise</a>
+<li><a href="https://reactify-sand.vercel.app/async-io/promise">Promise</a>
 <ul>
 <li>Greatly improved exception handling</li>
 <li>Renamed promise chaining methods <code>thenEx</code> and <code>mapEx</code> to <code>then</code> and <code>map</code></li>
@@ -342,7 +342,7 @@ the whole promise is completed exceptionally</li>
 <li>Unchecked exception handling can now be precisely configured using a thread-scoped or global
 <a href="https://github.com/hoangtien2k3/reactify-core/blob/v5.0/util-common/src/main/java/io/activej/common/exception/FatalErrorHandler.java" target="_blank" rel="noopener noreferrer">FatalErrorHandler facility</a></li>
 <li>Made ActiveJ compatible with Java 17</li>
-<li>Added various <code>DiscoveryService</code> interfaces for node discovery within server cluster (<a href="https://activej.io/rpc">RPC</a>, <a href="https://activej.io/fs">FS</a>)</li>
+<li>Added various <code>DiscoveryService</code> interfaces for node discovery within server cluster (<a href="https://reactify-sand.vercel.app/rpc">RPC</a>, <a href="https://reactify-sand.vercel.app/fs">FS</a>)</li>
 <li>Removed <code>AsyncServletDecorator</code> facility</li>
 <li>Removed <code>StreamCodecRegistry</code> facility</li>
 <li>Multiple small improvements and fixes</li>
@@ -352,8 +352,8 @@ the whole promise is completed exceptionally</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 4.3 - Small improvements for multiple modules]]></title>
-        <id>https://activej.io/blog/2021/05/28/v4.3</id>
-        <link href="https://activej.io/blog/2021/05/28/v4.3"/>
+        <id>https://reactify-sand.vercel.app/blog/2021/05/28/v4.3</id>
+        <link href="https://reactify-sand.vercel.app/blog/2021/05/28/v4.3"/>
         <updated>2021-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v4.3 was released May 28,]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v4.3 was released May 28,
@@ -377,8 +377,8 @@ now correctly adds <code>int</code> values</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 4.2 - Expanded functionality]]></title>
-        <id>https://activej.io/blog/2021/04/13/v4.2</id>
-        <link href="https://activej.io/blog/2021/04/13/v4.2"/>
+        <id>https://reactify-sand.vercel.app/blog/2021/04/13/v4.2</id>
+        <link href="https://reactify-sand.vercel.app/blog/2021/04/13/v4.2"/>
         <updated>2021-04-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v4.2 was released Apr 13, 2021 (see on Maven). This release expanded]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v4.2 was released Apr 13, 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/4.2" target="_blank" rel="noopener noreferrer">see on Maven</a>). This release expanded
@@ -423,8 +423,8 @@ that takes up a revision for the state to be saved with</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 4.1 - Optimization and simplification]]></title>
-        <id>https://activej.io/blog/2021/03/19/v4.1</id>
-        <link href="https://activej.io/blog/2021/03/19/v4.1"/>
+        <id>https://reactify-sand.vercel.app/blog/2021/03/19/v4.1</id>
+        <link href="https://reactify-sand.vercel.app/blog/2021/03/19/v4.1"/>
         <updated>2021-03-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v4.1 was released Mar 19, 2021 (see on Maven).]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v4.1 was released Mar 19, 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/4.1" target="_blank" rel="noopener noreferrer">see on Maven</a>).
@@ -458,8 +458,8 @@ and <a href="https://github.com/hoangtien2k3/reactify-core/blob/v4.1/boot-jmx-st
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveJ 4.0 - Refactoring of exceptions]]></title>
-        <id>https://activej.io/blog/2021/02/16/v4.0</id>
-        <link href="https://activej.io/blog/2021/02/16/v4.0"/>
+        <id>https://reactify-sand.vercel.app/blog/2021/02/16/v4.0</id>
+        <link href="https://reactify-sand.vercel.app/blog/2021/02/16/v4.0"/>
         <updated>2021-02-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ActiveJ v4.0 was released Feb 16, 2021 (see on Maven).]]></summary>
         <content type="html"><![CDATA[<p>ActiveJ v4.0 was released Feb 16, 2021 (<a href="https://mvnrepository.com/artifact/io.activej/activej/4.0" target="_blank" rel="noopener noreferrer">see on Maven</a>).
